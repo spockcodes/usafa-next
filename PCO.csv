@@ -1158,8 +1158,8 @@ DFL,Law 220,1,Spring,T3,2,20
 DFL,Law 220,1,Fall,T4,2,20
 DFL,Law 220,1,Winter,T4,2,20
 DFL,Law 220,1,Spring,T4,2,20
-DFL,Law 485W,2,Winter,M1,1,24
-DFL,Law 485W,2,Winter,T1,1,24
+DFL,Law 485,2,Winter,M1,1,24
+DFL,Law 485,2,Winter,T1,1,24
 DFL,SocSci 483,1,Spring,M1,1,24
 DFL,SocSci 483,1,Fall,M3,1,24
 DFL,SocSci 483,1,Spring,M3,1,24
