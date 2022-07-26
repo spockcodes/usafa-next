@@ -228,12 +228,12 @@ class SchedulingData:
         # ('practice_t', 'PM'): ['PhyEd 718','PhyEd 717','PhyEd 728','PhyEd 727','PhyEd 738','PhyEd 737']
         # }
         pe_ic_lookup = {
-        ('practice_m', 'AM'): ['PhyEd 711','PhyEd 721','PhyEd 731'],
-        ('practice_t', 'AM'): ['PhyEd 715','PhyEd 725','PhyEd 735'],
-        ('practice_m', 'PM'): ['PhyEd 714','PhyEd 724','PhyEd 734'],
-        ('practice_t', 'PM'): ['PhyEd 718','PhyEd 728','PhyEd 738']
+        ('practice_m', 'AM'): ['PhyEd 711F','PhyEd 711W','PhyEd 711S'],
+        ('practice_t', 'AM'): ['PhyEd 715F','PhyEd 715W','PhyEd 715S'],
+        ('practice_m', 'PM'): ['PhyEd 714F','PhyEd 714W','PhyEd 714S'],
+        ('practice_t', 'PM'): ['PhyEd 718F','PhyEd 718W','PhyEd 718S']
         }
-        pe_lookup = ['PhyEd 701','PhyEd 702','PhyEd 703']
+        pe_lookup = ['PhyEd 700F','PhyEd 700W','PhyEd 700S']
         num = 0
         for student, val in self.student_lookup.students.items():
             if not self.student_lookup.students[student]['requests']:
